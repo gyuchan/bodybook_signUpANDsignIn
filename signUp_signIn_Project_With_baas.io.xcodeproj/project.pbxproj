@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE6A29F516B0CD8800BF6383 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6A29F416B0CD8800BF6383 /* UIKit.framework */; };
+		DE6A29F716B0CD8800BF6383 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6A29F616B0CD8800BF6383 /* Foundation.framework */; };
+		DE6A29F916B0CD8800BF6383 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6A29F816B0CD8800BF6383 /* CoreGraphics.framework */; };
+		DE6A29FF16B0CD8800BF6383 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE6A29FD16B0CD8800BF6383 /* InfoPlist.strings */; };
+		DE6A2A0116B0CD8800BF6383 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6A2A0016B0CD8800BF6383 /* main.m */; };
+		DE6A2A0516B0CD8800BF6383 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6A2A0416B0CD8800BF6383 /* AppDelegate.m */; };
+		DE6A2A0716B0CD8800BF6383 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6A2A0616B0CD8800BF6383 /* Default.png */; };
+		DE6A2A0916B0CD8800BF6383 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6A2A0816B0CD8800BF6383 /* Default@2x.png */; };
+		DE6A2A0B16B0CD8800BF6383 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6A2A0A16B0CD8800BF6383 /* Default-568h@2x.png */; };
+		DE6A2A2D16B0CDAD00BF6383 /* libbaas.io-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6A2A2516B0CD9200BF6383 /* libbaas.io-sdk.a */; };
+		DE6A2A5516B0D04700BF6383 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6A2A5316B0D04700BF6383 /* SignUpViewController.m */; };
+		DE6A2A5616B0D04700BF6383 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE6A2A5416B0D04700BF6383 /* SignUpViewController.xib */; };
+		DE6A2A5A16B0D05900BF6383 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6A2A5816B0D05900BF6383 /* SignInViewController.m */; };
+		DE6A2A5B16B0D05900BF6383 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE6A2A5916B0D05900BF6383 /* SignInViewController.xib */; };
+		DE6A2A8316B0D37D00BF6383 /* bodybook_text.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6A2A7C16B0D37D00BF6383 /* bodybook_text.png */; };
+		DE6A2A8416B0D37D00BF6383 /* login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6A2A7D16B0D37D00BF6383 /* login@2x.png */; };
+		DE6A2A8516B0D37D00BF6383 /* loginFields@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6A2A7E16B0D37D00BF6383 /* loginFields@2x.png */; };
+		DE6A2A8616B0D37D00BF6383 /* loginPageBack-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6A2A7F16B0D37D00BF6383 /* loginPageBack-568h@2x.png */; };
+		DE6A2A8716B0D37D00BF6383 /* loginPageBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6A2A8016B0D37D00BF6383 /* loginPageBack@2x.png */; };
+		DE6A2A8816B0D37D00BF6383 /* register@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6A2A8116B0D37D00BF6383 /* register@2x.png */; };
+		DE6A2A8916B0D37D00BF6383 /* usernameField@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6A2A8216B0D37D00BF6383 /* usernameField@2x.png */; };
+		DE6A2A9416B0D38600BF6383 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6A2A8A16B0D38600BF6383 /* Default-568h@2x.png */; };
+		DE6A2A9516B0D38600BF6383 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6A2A8B16B0D38600BF6383 /* Default.png */; };
+		DE6A2A9616B0D38600BF6383 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6A2A8C16B0D38600BF6383 /* Default@2x.png */; };
+		DE6A2A9716B0D38600BF6383 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6A2A8D16B0D38600BF6383 /* Icon-72.png */; };
+		DE6A2A9816B0D38600BF6383 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6A2A8E16B0D38600BF6383 /* Icon-Small-50.png */; };
+		DE6A2A9916B0D38600BF6383 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6A2A8F16B0D38600BF6383 /* Icon-Small.png */; };
+		DE6A2A9A16B0D38600BF6383 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6A2A9016B0D38600BF6383 /* Icon-Small@2x.png */; };
+		DE6A2A9B16B0D38600BF6383 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6A2A9116B0D38600BF6383 /* Icon.png */; };
+		DE6A2A9C16B0D38600BF6383 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6A2A9216B0D38600BF6383 /* Icon@2x.png */; };
+		DE6A2A9D16B0D38600BF6383 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6A2A9316B0D38600BF6383 /* iTunesArtwork.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE6A2A2416B0CD9200BF6383 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE6A2A1716B0CD9200BF6383 /* baas.io-sdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AF6C65A01638D48700776F91;
+			remoteInfo = "baas.io-sdk";
+		};
+		DE6A2A2616B0CD9200BF6383 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE6A2A1716B0CD9200BF6383 /* baas.io-sdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AF6C65B11638D48700776F91;
+			remoteInfo = "baas.io-sdkTests";
+		};
+		DE6A2A2B16B0CDA800BF6383 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE6A2A1716B0CD9200BF6383 /* baas.io-sdk.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AF6C659F1638D48700776F91;
+			remoteInfo = "baas.io-sdk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE6A29F016B0CD8800BF6383 /* signUp_signIn_Project_With_baas.io.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = signUp_signIn_Project_With_baas.io.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6A29F416B0CD8800BF6383 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE6A29F616B0CD8800BF6383 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE6A29F816B0CD8800BF6383 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE6A29FC16B0CD8800BF6383 /* signUp_signIn_Project_With_baas.io-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "signUp_signIn_Project_With_baas.io-Info.plist"; sourceTree = "<group>"; };
+		DE6A29FE16B0CD8800BF6383 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE6A2A0016B0CD8800BF6383 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE6A2A0216B0CD8800BF6383 /* signUp_signIn_Project_With_baas.io-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "signUp_signIn_Project_With_baas.io-Prefix.pch"; sourceTree = "<group>"; };
+		DE6A2A0316B0CD8800BF6383 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE6A2A0416B0CD8800BF6383 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE6A2A0616B0CD8800BF6383 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DE6A2A0816B0CD8800BF6383 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DE6A2A0A16B0CD8800BF6383 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DE6A2A1716B0CD9200BF6383 /* baas.io-sdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "baas.io-sdk.xcodeproj"; path = "baasio_ios_client_SDK_V0-1.1.0/baas.io-sdk.xcodeproj"; sourceTree = "<group>"; };
+		DE6A2A5216B0D04700BF6383 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpViewController.h; path = signUp_signIn/SignUpViewController.h; sourceTree = "<group>"; };
+		DE6A2A5316B0D04700BF6383 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpViewController.m; path = signUp_signIn/SignUpViewController.m; sourceTree = "<group>"; };
+		DE6A2A5416B0D04700BF6383 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SignUpViewController.xib; path = signUp_signIn/SignUpViewController.xib; sourceTree = "<group>"; };
+		DE6A2A5716B0D05900BF6383 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignInViewController.h; path = signUp_signIn/SignInViewController.h; sourceTree = "<group>"; };
+		DE6A2A5816B0D05900BF6383 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignInViewController.m; path = signUp_signIn/SignInViewController.m; sourceTree = "<group>"; };
+		DE6A2A5916B0D05900BF6383 /* SignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SignInViewController.xib; path = signUp_signIn/SignInViewController.xib; sourceTree = "<group>"; };
+		DE6A2A7C16B0D37D00BF6383 /* bodybook_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bodybook_text.png; path = images/bodybook_text.png; sourceTree = "<group>"; };
+		DE6A2A7D16B0D37D00BF6383 /* login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "login@2x.png"; path = "images/login@2x.png"; sourceTree = "<group>"; };
+		DE6A2A7E16B0D37D00BF6383 /* loginFields@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loginFields@2x.png"; path = "images/loginFields@2x.png"; sourceTree = "<group>"; };
+		DE6A2A7F16B0D37D00BF6383 /* loginPageBack-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loginPageBack-568h@2x.png"; path = "images/loginPageBack-568h@2x.png"; sourceTree = "<group>"; };
+		DE6A2A8016B0D37D00BF6383 /* loginPageBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loginPageBack@2x.png"; path = "images/loginPageBack@2x.png"; sourceTree = "<group>"; };
+		DE6A2A8116B0D37D00BF6383 /* register@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "register@2x.png"; path = "images/register@2x.png"; sourceTree = "<group>"; };
+		DE6A2A8216B0D37D00BF6383 /* usernameField@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "usernameField@2x.png"; path = "images/usernameField@2x.png"; sourceTree = "<group>"; };
+		DE6A2A8A16B0D38600BF6383 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "images/icon/Default-568h@2x.png"; sourceTree = "<group>"; };
+		DE6A2A8B16B0D38600BF6383 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = images/icon/Default.png; sourceTree = "<group>"; };
+		DE6A2A8C16B0D38600BF6383 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "images/icon/Default@2x.png"; sourceTree = "<group>"; };
+		DE6A2A8D16B0D38600BF6383 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "images/icon/Icon-72.png"; sourceTree = "<group>"; };
+		DE6A2A8E16B0D38600BF6383 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "images/icon/Icon-Small-50.png"; sourceTree = "<group>"; };
+		DE6A2A8F16B0D38600BF6383 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "images/icon/Icon-Small.png"; sourceTree = "<group>"; };
+		DE6A2A9016B0D38600BF6383 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "images/icon/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		DE6A2A9116B0D38600BF6383 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = images/icon/Icon.png; sourceTree = "<group>"; };
+		DE6A2A9216B0D38600BF6383 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "images/icon/Icon@2x.png"; sourceTree = "<group>"; };
+		DE6A2A9316B0D38600BF6383 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = images/icon/iTunesArtwork.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE6A29ED16B0CD8800BF6383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6A2A2D16B0CDAD00BF6383 /* libbaas.io-sdk.a in Frameworks */,
+				DE6A29F516B0CD8800BF6383 /* UIKit.framework in Frameworks */,
+				DE6A29F716B0CD8800BF6383 /* Foundation.framework in Frameworks */,
+				DE6A29F916B0CD8800BF6383 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE6A29E516B0CD8800BF6383 = {
+			isa = PBXGroup;
+			children = (
+				DE6A2A1716B0CD9200BF6383 /* baas.io-sdk.xcodeproj */,
+				DE6A29FA16B0CD8800BF6383 /* signUp_signIn_Project_With_baas.io */,
+				DE6A29F316B0CD8800BF6383 /* Frameworks */,
+				DE6A29F116B0CD8800BF6383 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE6A29F116B0CD8800BF6383 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE6A29F016B0CD8800BF6383 /* signUp_signIn_Project_With_baas.io.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE6A29F316B0CD8800BF6383 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE6A29F416B0CD8800BF6383 /* UIKit.framework */,
+				DE6A29F616B0CD8800BF6383 /* Foundation.framework */,
+				DE6A29F816B0CD8800BF6383 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE6A29FA16B0CD8800BF6383 /* signUp_signIn_Project_With_baas.io */ = {
+			isa = PBXGroup;
+			children = (
+				DE6A2A5C16B0D1C300BF6383 /* Image */,
+				DE6A2A3516B0CE8D00BF6383 /* SignUp_SignIn */,
+				DE6A2A0316B0CD8800BF6383 /* AppDelegate.h */,
+				DE6A2A0416B0CD8800BF6383 /* AppDelegate.m */,
+				DE6A29FB16B0CD8800BF6383 /* Supporting Files */,
+			);
+			path = signUp_signIn_Project_With_baas.io;
+			sourceTree = "<group>";
+		};
+		DE6A29FB16B0CD8800BF6383 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE6A29FC16B0CD8800BF6383 /* signUp_signIn_Project_With_baas.io-Info.plist */,
+				DE6A29FD16B0CD8800BF6383 /* InfoPlist.strings */,
+				DE6A2A0016B0CD8800BF6383 /* main.m */,
+				DE6A2A0216B0CD8800BF6383 /* signUp_signIn_Project_With_baas.io-Prefix.pch */,
+				DE6A2A0616B0CD8800BF6383 /* Default.png */,
+				DE6A2A0816B0CD8800BF6383 /* Default@2x.png */,
+				DE6A2A0A16B0CD8800BF6383 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE6A2A1816B0CD9200BF6383 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE6A2A2516B0CD9200BF6383 /* libbaas.io-sdk.a */,
+				DE6A2A2716B0CD9200BF6383 /* baas.io-sdkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE6A2A3516B0CE8D00BF6383 /* SignUp_SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				DE6A2A5716B0D05900BF6383 /* SignInViewController.h */,
+				DE6A2A5816B0D05900BF6383 /* SignInViewController.m */,
+				DE6A2A5916B0D05900BF6383 /* SignInViewController.xib */,
+				DE6A2A5216B0D04700BF6383 /* SignUpViewController.h */,
+				DE6A2A5316B0D04700BF6383 /* SignUpViewController.m */,
+				DE6A2A5416B0D04700BF6383 /* SignUpViewController.xib */,
+			);
+			name = SignUp_SignIn;
+			sourceTree = "<group>";
+		};
+		DE6A2A5C16B0D1C300BF6383 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				DE6A2A7C16B0D37D00BF6383 /* bodybook_text.png */,
+				DE6A2A7D16B0D37D00BF6383 /* login@2x.png */,
+				DE6A2A7E16B0D37D00BF6383 /* loginFields@2x.png */,
+				DE6A2A7F16B0D37D00BF6383 /* loginPageBack-568h@2x.png */,
+				DE6A2A8016B0D37D00BF6383 /* loginPageBack@2x.png */,
+				DE6A2A8116B0D37D00BF6383 /* register@2x.png */,
+				DE6A2A8216B0D37D00BF6383 /* usernameField@2x.png */,
+				DE6A2A7B16B0D36C00BF6383 /* Icon */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		DE6A2A7B16B0D36C00BF6383 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				DE6A2A8A16B0D38600BF6383 /* Default-568h@2x.png */,
+				DE6A2A8B16B0D38600BF6383 /* Default.png */,
+				DE6A2A8C16B0D38600BF6383 /* Default@2x.png */,
+				DE6A2A8D16B0D38600BF6383 /* Icon-72.png */,
+				DE6A2A8E16B0D38600BF6383 /* Icon-Small-50.png */,
+				DE6A2A8F16B0D38600BF6383 /* Icon-Small.png */,
+				DE6A2A9016B0D38600BF6383 /* Icon-Small@2x.png */,
+				DE6A2A9116B0D38600BF6383 /* Icon.png */,
+				DE6A2A9216B0D38600BF6383 /* Icon@2x.png */,
+				DE6A2A9316B0D38600BF6383 /* iTunesArtwork.png */,
+			);
+			name = Icon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE6A29EF16B0CD8800BF6383 /* signUp_signIn_Project_With_baas.io */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE6A2A1416B0CD8800BF6383 /* Build configuration list for PBXNativeTarget "signUp_signIn_Project_With_baas.io" */;
+			buildPhases = (
+				DE6A29EC16B0CD8800BF6383 /* Sources */,
+				DE6A29ED16B0CD8800BF6383 /* Frameworks */,
+				DE6A29EE16B0CD8800BF6383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE6A2A2C16B0CDA800BF6383 /* PBXTargetDependency */,
+			);
+			name = signUp_signIn_Project_With_baas.io;
+			productName = signUp_signIn_Project_With_baas.io;
+			productReference = DE6A29F016B0CD8800BF6383 /* signUp_signIn_Project_With_baas.io.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE6A29E716B0CD8800BF6383 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "gyuchan jeon";
+			};
+			buildConfigurationList = DE6A29EA16B0CD8800BF6383 /* Build configuration list for PBXProject "signUp_signIn_Project_With_baas.io" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE6A29E516B0CD8800BF6383;
+			productRefGroup = DE6A29F116B0CD8800BF6383 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DE6A2A1816B0CD9200BF6383 /* Products */;
+					ProjectRef = DE6A2A1716B0CD9200BF6383 /* baas.io-sdk.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				DE6A29EF16B0CD8800BF6383 /* signUp_signIn_Project_With_baas.io */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DE6A2A2516B0CD9200BF6383 /* libbaas.io-sdk.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libbaas.io-sdk.a";
+			remoteRef = DE6A2A2416B0CD9200BF6383 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DE6A2A2716B0CD9200BF6383 /* baas.io-sdkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "baas.io-sdkTests.octest";
+			remoteRef = DE6A2A2616B0CD9200BF6383 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE6A29EE16B0CD8800BF6383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6A29FF16B0CD8800BF6383 /* InfoPlist.strings in Resources */,
+				DE6A2A0716B0CD8800BF6383 /* Default.png in Resources */,
+				DE6A2A0916B0CD8800BF6383 /* Default@2x.png in Resources */,
+				DE6A2A0B16B0CD8800BF6383 /* Default-568h@2x.png in Resources */,
+				DE6A2A5616B0D04700BF6383 /* SignUpViewController.xib in Resources */,
+				DE6A2A5B16B0D05900BF6383 /* SignInViewController.xib in Resources */,
+				DE6A2A8316B0D37D00BF6383 /* bodybook_text.png in Resources */,
+				DE6A2A8416B0D37D00BF6383 /* login@2x.png in Resources */,
+				DE6A2A8516B0D37D00BF6383 /* loginFields@2x.png in Resources */,
+				DE6A2A8616B0D37D00BF6383 /* loginPageBack-568h@2x.png in Resources */,
+				DE6A2A8716B0D37D00BF6383 /* loginPageBack@2x.png in Resources */,
+				DE6A2A8816B0D37D00BF6383 /* register@2x.png in Resources */,
+				DE6A2A8916B0D37D00BF6383 /* usernameField@2x.png in Resources */,
+				DE6A2A9416B0D38600BF6383 /* Default-568h@2x.png in Resources */,
+				DE6A2A9516B0D38600BF6383 /* Default.png in Resources */,
+				DE6A2A9616B0D38600BF6383 /* Default@2x.png in Resources */,
+				DE6A2A9716B0D38600BF6383 /* Icon-72.png in Resources */,
+				DE6A2A9816B0D38600BF6383 /* Icon-Small-50.png in Resources */,
+				DE6A2A9916B0D38600BF6383 /* Icon-Small.png in Resources */,
+				DE6A2A9A16B0D38600BF6383 /* Icon-Small@2x.png in Resources */,
+				DE6A2A9B16B0D38600BF6383 /* Icon.png in Resources */,
+				DE6A2A9C16B0D38600BF6383 /* Icon@2x.png in Resources */,
+				DE6A2A9D16B0D38600BF6383 /* iTunesArtwork.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE6A29EC16B0CD8800BF6383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6A2A0116B0CD8800BF6383 /* main.m in Sources */,
+				DE6A2A0516B0CD8800BF6383 /* AppDelegate.m in Sources */,
+				DE6A2A5516B0D04700BF6383 /* SignUpViewController.m in Sources */,
+				DE6A2A5A16B0D05900BF6383 /* SignInViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE6A2A2C16B0CDA800BF6383 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "baas.io-sdk";
+			targetProxy = DE6A2A2B16B0CDA800BF6383 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE6A29FD16B0CD8800BF6383 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE6A29FE16B0CD8800BF6383 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE6A2A1216B0CD8800BF6383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE6A2A1316B0CD8800BF6383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE6A2A1516B0CD8800BF6383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "signUp_signIn_Project_With_baas.io/signUp_signIn_Project_With_baas.io-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/include/**";
+				INFOPLIST_FILE = "signUp_signIn_Project_With_baas.io/signUp_signIn_Project_With_baas.io-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE6A2A1616B0CD8800BF6383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "signUp_signIn_Project_With_baas.io/signUp_signIn_Project_With_baas.io-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/include/**";
+				INFOPLIST_FILE = "signUp_signIn_Project_With_baas.io/signUp_signIn_Project_With_baas.io-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE6A29EA16B0CD8800BF6383 /* Build configuration list for PBXProject "signUp_signIn_Project_With_baas.io" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6A2A1216B0CD8800BF6383 /* Debug */,
+				DE6A2A1316B0CD8800BF6383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE6A2A1416B0CD8800BF6383 /* Build configuration list for PBXNativeTarget "signUp_signIn_Project_With_baas.io" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6A2A1516B0CD8800BF6383 /* Debug */,
+				DE6A2A1616B0CD8800BF6383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE6A29E716B0CD8800BF6383 /* Project object */;
+}
